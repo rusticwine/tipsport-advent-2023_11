@@ -56,19 +56,6 @@ class CosmosCalculatorTest {
         );
     }
 
-//    @Test
-    void aaa() {
-
-        System.out.println("num: 1: " + Arrays.binarySearch(new Integer[] {2, 4, 5, 6, 10, 20, 100}, 1 ));
-        System.out.println("num: 3: " + Arrays.binarySearch(new Integer[] {2, 4, 5, 6, 10, 20, 100}, 3 ));
-        System.out.println("num: 7: " + Arrays.binarySearch(new Integer[] {2, 4, 5, 6, 10, 20, 100},  7));
-        System.out.println("num: 11: " + Arrays.binarySearch(new Integer[] {2, 4, 5, 6, 10, 20, 100},  11));
-        System.out.println("num: 21: " + Arrays.binarySearch(new Integer[] {2, 4, 5, 6, 10, 20, 100},  21));
-        System.out.println("num: 99: " + Arrays.binarySearch(new Integer[] {2, 4, 5, 6, 10, 20, 100},  99));
-        System.out.println("num: 101: " + Arrays.binarySearch(new Integer[] {2, 4, 5, 6, 10, 20, 100},  101));
-        System.out.println("num: 1111: " + Arrays.binarySearch(new Integer[] {2, 4, 5, 6, 10, 20, 100},  1111));
-
-    }
 
     @Test
     void testIndicies() {
